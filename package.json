@@ -7,11 +7,21 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "expo": "^49.0.21",
+    "expo-local-authentication": "^13.6.0",
+    "expo-modules-core": "^1.5.12",
+    "install-expo-modules": "^0.8.0",
+    "patch-package": "^8.0.0",
     "react": "18.2.0",
-    "react-native": "0.73.1"
+    "react-native": "0.73.1",
+    "react-native-code-push": "7.1.0",
+    "react-native-gesture-handler": "2.6.2",
+    "react-native-job-queue": "^0.5.0",
+    "react-native-webview": "^13.6.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
